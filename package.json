@@ -1,8 +1,7 @@
 {
-    "name": "@mathblocks/contracts",
+    "name": "@lagos/contracts",
     "version": "1.0.0",
-    "description": "MathBlocks contracts",
-    "author": "MathBlocks <info@mathblocks.io>",
+    "description": "Lagos contracts",
     "license": "MIT",
     "scripts": {
         "lint": "yarn run lint-ts; yarn run lint-sol",
@@ -23,10 +22,6 @@
         "test:file:fork": "yarn hardhat --config hardhat-fork.config.ts test",
         "test:file": "yarn hardhat test",
         "test:file:long": "LONG_TESTS=true yarn hardhat test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/mathblocks/contracts.git"
     },
     "devDependencies": {
         "@commitlint/cli": "^12.1.1",
@@ -57,7 +52,7 @@
         "prettier-plugin-solidity": "^1.0.0-beta.10",
         "pretty-quick": "^3.1.0",
         "sol-merger": "^3.0.1",
-        "solc": "0.8.6",
+        "solc": "0.8.7",
         "solhint": "^3.3.6",
         "ts-generator": "^0.1.1",
         "typescript": "^4.3.5"
@@ -65,10 +60,6 @@
     "_moduleAliases": {
         "@utils": "dist/test-utils"
     },
-    "bugs": {
-        "url": "https://github.com/mathblocks/contracts/issues"
-    },
-    "homepage": "https://github.com/mathblocks/contracts#readme",
     "dependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
         "@nomiclabs/hardhat-waffle": "^2.0.1",
@@ -84,7 +75,7 @@
         "ethers-multicall": "^0.2.0",
         "graphql": "^15.5.0",
         "graphql-request": "^3.5.0",
-        "hardhat": "^2.6.0",
+        "hardhat": "^2.6.4",
         "hardhat-gas-reporter": "^1.0.1",
         "solidity-coverage": "0.7.16",
         "ts-node": "^10.2.0",
